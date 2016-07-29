@@ -4,7 +4,7 @@ This is a little script to help batch exporting models from .blend files to othe
 
 All objects are exported to different files. Filename is same as the object's name in blender.
 
-This script if developed and tested with blender 2.77a
+This script is currently compatible with Blender v2.77a.
 
 ## Usage
 
@@ -24,5 +24,5 @@ blender -b blendfile.blend --python export.py -- -t fbx -p ../models
 
 ### Notes
 - If using `-p`, make sure that the folder is created.
-- - When exporting `g3dj` or `g3db` blender extension [libgdx_blender_g3d_exporter](https://github.com/Dancovich/libgdx_blender_g3d_exporter) by Dancovich needs to be installed.
+- When exporting `g3dj` or `g3db` blender extension [libgdx_blender_g3d_exporter](https://github.com/Dancovich/libgdx_blender_g3d_exporter) by Dancovich needs to be installed.
 - When exporting `g3dj` or `g3db` models will need to have at least one material attached.
