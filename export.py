@@ -11,12 +11,14 @@ EXPORT_FUNC = {
     'g3db': bpy.ops.export_json_g3d.g3db,
     'obj': bpy.ops.export_scene.obj,
     'fbx': bpy.ops.export_scene.fbx,
+    'dae': bpy.ops.wm.collada_export,
 }
 
 # Keyword arguments for different exporters
 KWARGS = {
     'g3dj': {'useSelection': True},
     'g3db': {'useSelection': True},
+    'dae': {'selected': True},
 }
 DEFAULT_KWARGS = {'use_selection': True}
 

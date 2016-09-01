@@ -17,7 +17,7 @@ blender -b blendfile.blend --python export.py -- -t fbx -p ../models
 ### Arguments
 
 - Export type `-t`
-  - Currently supported: `g3dj, g3db, obj, fbx`
+  - Currently supported: `g3dj, g3db, obj, fbx, dae`
 - Filepath `-p`
 - File extension `-e`
   - If not defined, export type is used.
